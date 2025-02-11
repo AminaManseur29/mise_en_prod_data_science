@@ -7,7 +7,7 @@ from sklearn.impute import SimpleImputer
 from sklearn.pipeline import Pipeline
 from sklearn.compose import ColumnTransformer
 
-def split_train_test(data, test_size, train_path="train.csv", test_path="test.csv"):
+def split_train_test(data, test_size, train_path="data/derived/train.csv", test_path="data/derived/test.csv"):
     """
     Split the data into training and testing sets based on the specified test size.
     Optionally, save the split datasets to CSV files.

@@ -8,9 +8,9 @@ import argparse
 
 import pandas as pd
 
-from import_data import split_and_count
-from build_features import split_train_test, create_pipeline
-from train_evaluate import evaluate_model
+from src.data.import_data import split_and_count
+from src.pipeline.build_features import split_train_test, create_pipeline
+from src.models.train_evaluate import evaluate_model
 
 
 # ENVIRONMENT CONFIGURATION ---------------------------
@@ -25,7 +25,7 @@ args = parser.parse_args()
 
 n_trees = args.n_trees
 jeton_api = os.environ.get("JETON_API", "")
-data_path = os.environ.get("DATA_PATH", "data.csv")
+data_path = os.environ.get("DATA_PATH", "data/row/data.csv")
 MAX_DEPTH = None
 MAX_FEATURES = "sqrt"
 
@@ -40,7 +40,7 @@ else:
 
 # IMPORT ET EXPLORATION DONNEES --------------------------------
 
-TrainingData = pd.read_csv("data.csv")
+TrainingData = pd.read_csv(data_path)
 
 
 # Usage example:
