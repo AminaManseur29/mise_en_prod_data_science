@@ -12,3 +12,6 @@ jeton_api: ####
 ## Utiliser le projet
 - Installer les dépendances
  ```pip install -r requirements.txt```
+
+- Exécuter le projet
+```python main.py```
