@@ -1,0 +1,6 @@
+2025-02-11 10:38:50.799 | INFO     | __main__:<module>:34 - API token has been configured properly
+2025-02-11 10:38:50.909 | SUCCESS  | __main__:<module>:76 - 75.6% de bonnes réponses sur les données de test pour validation
+2025-02-11 10:38:50.909 | DEBUG    | __main__:<module>:77 - --------------------
+2025-02-11 10:38:50.909 | INFO     | __main__:<module>:78 - matrice de confusion
+2025-02-11 10:38:50.909 | DEBUG    | __main__:<module>:79 - [[41  9]
+ [13 27]]
