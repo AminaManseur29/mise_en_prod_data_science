@@ -1,12 +1,31 @@
+<<<<<<< HEAD
 """
 Prediction de la survie d'un individu sur le Titanic
 """
 
+=======
+import pandas as pd
+import numpy as np
+import matplotlib.pyplot as plt
+import multiprocessing
+from sklearn.preprocessing import LabelEncoder, OneHotEncoder
+from sklearn.model_selection import train_test_split
+import pathlib
+from sklearn.preprocessing import MinMaxScaler
+from sklearn.ensemble import RandomForestClassifier
+import seaborn as sns
+import time
+>>>>>>> 353ca7e06bafb26e5319cd16eccd0c913a0dbdbf
 import os
 from dotenv import load_dotenv
 import argparse
 
+<<<<<<< HEAD
 import pandas as pd
+=======
+# os.chdir('/home/coder/work/ensae-reproductibilite-application')
+TrainingData = pd.read_csv('data.csv')
+>>>>>>> 353ca7e06bafb26e5319cd16eccd0c913a0dbdbf
 
 from sklearn.preprocessing import OneHotEncoder, MinMaxScaler
 from sklearn.model_selection import train_test_split
