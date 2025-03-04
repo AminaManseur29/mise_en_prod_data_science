@@ -4,3 +4,5 @@ __pycache__/
 notebooks/application_8.ipynb
 data/
 *.parquet
+titanic/
+titanic_venv/

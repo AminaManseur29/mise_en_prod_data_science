@@ -1,0 +1,15 @@
+[project]
+name = "mise-en-prod-data-science"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.12"
+dependencies = [
+    "fastparquet>=2024.11.0",
+    "loguru>=0.7.3",
+    "pandas>=2.2.3",
+    "pyarrow>=19.0.1",
+    "python-dotenv>=1.0.1",
+    "pyyaml>=6.0.2",
+    "scikit-learn>=1.6.1",
+]
