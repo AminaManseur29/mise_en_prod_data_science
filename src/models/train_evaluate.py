@@ -1,7 +1,12 @@
+<<<<<<< HEAD
 from loguru import logger
 from sklearn.metrics import confusion_matrix
 
 @logger.catch
+=======
+from sklearn.metrics import confusion_matrix
+
+>>>>>>> 2010a02e160a40b150f10aac3ab597014e4064ee
 def evaluate_model(pipe, X_test, y_test):
     """
     Evaluate the model by calculating the score and confusion matrix.
@@ -17,3 +22,7 @@ def evaluate_model(pipe, X_test, y_test):
     score = pipe.score(X_test, y_test)
     matrix = confusion_matrix(y_test, pipe.predict(X_test))
     return score, matrix
+<<<<<<< HEAD
+=======
+
+>>>>>>> 2010a02e160a40b150f10aac3ab597014e4064ee

@@ -1,5 +1,12 @@
 config.yaml
 __pycache__/
+<<<<<<< HEAD
 data/**/*.csv
+=======
+.env
+notebooks/application_8.ipynb
+data/
+*.parquet
+>>>>>>> 2010a02e160a40b150f10aac3ab597014e4064ee
 titanic/
 titanic_venv/

@@ -1,0 +1,55 @@
+2025-02-11 10:38:50.799 | INFO     | __main__:<module>:34 - API token has been configured properly
+2025-02-11 10:38:50.909 | SUCCESS  | __main__:<module>:76 - 75.6% de bonnes réponses sur les données de test pour validation
+2025-02-11 10:38:50.909 | DEBUG    | __main__:<module>:77 - --------------------
+2025-02-11 10:38:50.909 | INFO     | __main__:<module>:78 - matrice de confusion
+2025-02-11 10:38:50.909 | DEBUG    | __main__:<module>:79 - [[41  9]
+ [13 27]]
+2025-03-02 09:08:36.229 | WARNING  | __main__:<module>:37 - API token has not been configured
+2025-03-02 09:08:36.307 | SUCCESS  | __main__:<module>:76 - 67.8% de bonnes réponses sur les données de test pour validation
+2025-03-02 09:08:36.307 | DEBUG    | __main__:<module>:77 - --------------------
+2025-03-02 09:08:36.307 | INFO     | __main__:<module>:78 - matrice de confusion
+2025-03-02 09:08:36.307 | DEBUG    | __main__:<module>:79 - [[48 13]
+ [16 13]]
+2025-03-02 09:40:30.272 | INFO     | __main__:<module>:40 - API token has been configured properly
+2025-03-02 09:40:30.448 | SUCCESS  | __main__:<module>:91 - 75.6% de bonnes réponses sur les données de test pour validation
+2025-03-02 09:40:30.449 | DEBUG    | __main__:<module>:92 - --------------------
+2025-03-02 09:40:30.449 | INFO     | __main__:<module>:93 - matrice de confusion
+2025-03-02 09:40:30.449 | DEBUG    | __main__:<module>:94 - [[38 16]
+ [ 6 30]]
+2025-03-02 09:42:42.159 | INFO     | __main__:<module>:40 - API token has been configured properly
+2025-03-02 09:42:42.323 | SUCCESS  | __main__:<module>:91 - 77.8% de bonnes réponses sur les données de test pour validation
+2025-03-02 09:42:42.323 | DEBUG    | __main__:<module>:92 - --------------------
+2025-03-02 09:42:42.323 | INFO     | __main__:<module>:93 - matrice de confusion
+2025-03-02 09:42:42.323 | DEBUG    | __main__:<module>:94 - [[51  8]
+ [12 19]]
+2025-03-02 09:42:56.162 | INFO     | __main__:<module>:40 - API token has been configured properly
+2025-03-02 09:42:56.331 | SUCCESS  | __main__:<module>:91 - 80.0% de bonnes réponses sur les données de test pour validation
+2025-03-02 09:42:56.331 | DEBUG    | __main__:<module>:92 - --------------------
+2025-03-02 09:42:56.331 | INFO     | __main__:<module>:93 - matrice de confusion
+2025-03-02 09:42:56.331 | DEBUG    | __main__:<module>:94 - [[47  7]
+ [11 25]]
+2025-03-02 09:45:44.347 | INFO     | __main__:<module>:39 - API token has been configured properly
+2025-03-02 09:45:44.510 | SUCCESS  | __main__:<module>:85 - 82.2% de bonnes réponses sur les données de test pour validation
+2025-03-02 09:45:44.510 | DEBUG    | __main__:<module>:86 - --------------------
+2025-03-02 09:45:44.510 | INFO     | __main__:<module>:87 - matrice de confusion
+2025-03-02 09:45:44.510 | DEBUG    | __main__:<module>:88 - [[49  8]
+ [ 8 25]]
+2025-03-04 09:14:44.831 | INFO     | __main__:<module>:39 - API token has been configured properly
+2025-03-04 09:15:49.411 | INFO     | __main__:<module>:39 - API token has been configured properly
+2025-03-04 09:15:49.591 | SUCCESS  | __main__:<module>:85 - 80.0% de bonnes réponses sur les données de test pour validation
+2025-03-04 09:15:49.591 | DEBUG    | __main__:<module>:86 - --------------------
+2025-03-04 09:15:49.591 | INFO     | __main__:<module>:87 - matrice de confusion
+2025-03-04 09:15:49.592 | DEBUG    | __main__:<module>:88 - [[43  5]
+ [13 29]]
+2025-03-04 09:45:03.063 | INFO     | __main__:<module>:39 - API token has been configured properly
+2025-03-04 09:45:03.337 | SUCCESS  | __main__:<module>:85 - 73.3% de bonnes réponses sur les données de test pour validation
+2025-03-04 09:45:03.338 | DEBUG    | __main__:<module>:86 - --------------------
+2025-03-04 09:45:03.338 | INFO     | __main__:<module>:87 - matrice de confusion
+2025-03-04 09:45:03.338 | DEBUG    | __main__:<module>:88 - [[41 14]
+ [10 25]]
+2025-03-04 09:50:58.828 | INFO     | __main__:<module>:39 - API token has been configured properly
+2025-03-04 09:50:59.041 | SUCCESS  | __main__:<module>:85 - 83.3% de bonnes réponses sur les données de test pour validation
+2025-03-04 09:50:59.041 | DEBUG    | __main__:<module>:86 - --------------------
+2025-03-04 09:50:59.041 | INFO     | __main__:<module>:87 - matrice de confusion
+2025-03-04 09:50:59.041 | DEBUG    | __main__:<module>:88 - [[49  6]
+ [ 9 26]]
