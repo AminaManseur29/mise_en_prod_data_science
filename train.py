@@ -8,6 +8,7 @@ import argparse
 from loguru import logger
 
 import pathlib
+from joblib import dump
 import pandas as pd
 from sklearn.model_selection import train_test_split
 
@@ -55,8 +56,8 @@ X = TrainingData.drop("Survived", axis="columns")
 X_train, X_test, y_train, y_test = train_test_split(
     X, y, test_size=0.1
 )
-pd.concat([X_train, y_train], axis = 1).to_parquet(data_train_path)
-pd.concat([X_test, y_test], axis = 1).to_parquet(data_test_path)
+pd.concat([X_train, y_train], axis=1).to_parquet(data_train_path)
+pd.concat([X_test, y_test], axis=1).to_parquet(data_test_path)
 
 
 
@@ -72,7 +73,7 @@ pipe = create_pipeline(
 # ESTIMATION ET EVALUATION ----------------------
 
 pipe.fit(X_train, y_train)
-
+dump(pipe, 'model.joblib')
 
 # Evaluate the model
 score, matrix = evaluate_model(pipe, X_test, y_test)
